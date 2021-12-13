@@ -13,6 +13,7 @@ function getPosition (position) {
     Latitude:${position.coords.latitude} ,
     Longitude:${position.coords.longitude}
     `
+    gMaps.style.visibility = 'visible';
     gMaps.href = `https://www.google.com/maps/@${position.coords.latitude},${position.coords.longitude},15z`
     gMaps.innerHTML="Click here to Gmaps"
 }

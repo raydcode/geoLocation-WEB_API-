@@ -63,6 +63,7 @@ a {
   padding: 1rem;
   color: var(--black);
   margin-top: 1em;
+  visibility: hidden;
 }
 a:hover {
   background-color: var(--black);
