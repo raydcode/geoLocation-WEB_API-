@@ -52,8 +52,19 @@ h1 {
   height: 100vh;
 }
 
-
 .location {
   font-weight: 700;
-  font-size:2rem;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid var(--black);
+  padding: 1rem;
+  color: var(--black);
+  margin-top: 1em;
+}
+a:hover {
+  background-color: var(--black);
+  color: #fff;
 }
